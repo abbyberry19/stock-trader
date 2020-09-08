@@ -40,8 +40,8 @@ const getters = {
             return {
                 id: stock.id,
                 quantity: stock.quantity,
-                // name: record.name,
-                // price: record.price
+                name: record.name,
+                price: record.price
             }
         });
     },
