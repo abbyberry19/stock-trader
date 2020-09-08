@@ -14,13 +14,13 @@ const mutations = {
 };
 
 const actions = {
-    buyStock: ({commit}, order) => {
+    buyStock: ({ commit }, order) => {
         commit('BUY_STOCK', order);
     },
-    initStocks: ({commit}) => {
+    initStocks: ({ commit }) => {
         commit('SET_STOCKS', stocks);
     },
-    randomiseStocks: ({commit}) => {
+    randomiseStocks: ({ commit }) => {
         commit('RND_STOCKS');
     }
 };
