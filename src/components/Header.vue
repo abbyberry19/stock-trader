@@ -53,7 +53,7 @@
     methods: {
       ...mapActions ({
         randomizeStocks: 'randomizeStocks',
-        fetchData: 'fetchData'
+        fetchData: 'loadData'
       }),
       endDay() {
         this.randomizeStocks();
